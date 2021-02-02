@@ -1,0 +1,13 @@
+<Requests>
+	<Request Object="config" Operation="set">
+		<Params>
+			<Param Name="template-id" value="1">
+				<data_model><![CDATA[<variables>
+				<variable name="vnf/xchange/ram">1024</variable>
+				<variable name="ovp/port/0/ip-address">192.168.3.54</variable>
+				</variables>]]>
+				</data_model>
+			</Param>
+		</Params>
+	</Request>
+</Requests>

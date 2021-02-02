@@ -1,0 +1,7 @@
+<Requests>
+	<Request Object="user" Operation="delete">
+		<Params>
+			<Param Name="username" Value="test"/>
+		</Params>
+	</Request>
+</Requests>

@@ -1,0 +1,10 @@
+<Requests>    
+	<Request Object="software" Operation="getList">
+    	<Params>
+        	<!-- <Param Name="hw-class" Value="OVP"/>
+        	<Param Name="sw-name" Value="OVP1600-X12-1.1.10-INCREMENTAL:N"/>
+        	<Param Name="hw-type" Value="OVP800-M7"/> -->
+        	<Param Name="sw-version" Value="1.1.0"/>
+        </Params>
+    </Request>
+</Requests>

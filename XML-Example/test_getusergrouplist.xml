@@ -1,0 +1,7 @@
+<Requests>
+	<Request Object="usergroup" Operation="getList">
+	<Params>
+		<Param Name="groupname" Value=" "/>
+	</Params>
+	</Request>
+</Requests>

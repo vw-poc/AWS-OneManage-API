@@ -1,0 +1,7 @@
+<Requests>
+	<Request Object="unprovisioned" Operation="getStatus">
+		<Params>
+			<Param Name="serial" Value="L0887654467"/>
+		</Params>
+	</Request>
+</Requests>

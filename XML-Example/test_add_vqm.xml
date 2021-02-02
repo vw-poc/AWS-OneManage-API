@@ -1,0 +1,13 @@
+<Requests>
+	<Request Object="router" Operation="add">
+		<Params>
+			<Param Name="location" Value="loc_tstOPV_1"/>
+			<Param Name="longitude" Value="78.6677428"/>
+			<Param Name="latitude" Value="22.3511148"/>
+			<Param Name="management-ip" Value="10.2.50.1"/>
+			<Param Name="hostname" Value="VQM_1"/>
+			<Param Name="group" Value="Test"/>
+			<Param Name="hashkey" Value="VQM"/>
+		</Params>
+	</Request>
+</Requests>

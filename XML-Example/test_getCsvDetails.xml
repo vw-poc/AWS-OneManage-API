@@ -1,0 +1,7 @@
+<Requests>
+        <Request Object="csv" Operation="getDetails">
+                 <Params>
+                         <Param Name="name" Value="OAI_CSV_1"/>
+                </Params>
+        </Request>
+</Requests>

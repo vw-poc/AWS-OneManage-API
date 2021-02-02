@@ -1,0 +1,7 @@
+<Requests>
+    <Request Object="router" Operation="GetExtendedStatus">
+        <Params>
+            <Param Name="hostname" Value="Test"/>
+        </Params>
+    </Request>
+</Requests>

@@ -1,0 +1,9 @@
+<Requests>    
+	<Request Object="config" Operation="getvalue">
+    	<Params>
+        	<Param Name="serial" Value="L0887650025"/>
+        	<Param Name = "xpath" Value = "/ovpmgt/autoconf/manager/__index_0/url"/>
+			
+        </Params>
+    </Request>
+</Requests>

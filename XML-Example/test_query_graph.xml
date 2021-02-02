@@ -1,0 +1,24 @@
+<Requests>
+	<Request Object="graphs" Operation="query">
+		<Params>
+			<Param name="VQM">
+				<Param name="callsPerCodec" value="LAN"/>
+				<Param name="callsPerQualityGrade" value="LAN"/>
+				<Param name="callDurationDistribuion" value="LAN"/>
+				<Param name="activeCalls" value="LAN"/>
+				<Param name="hourlyDistributionOfCallQuality" value="LAN"/>
+				<Param name="hourlyDistributionOfBadCalls" value="LAN"/>
+				<Param name="hourlyDistributionOfPacketLosses" value="LAN"/>
+				<Param name="hourlyDistributionOfJitter" value="LAN"/>
+				<Param name="sourcesByRfactor" value="LAN"/>
+				<Param name="topSourceswithBadRfactor" value="LAN"/>
+				<Param name="worstRfactorOfWorstSource" value="LAN"/>
+				<Param name="averageDailyRfactor" />
+				<Param name="averageDailyCallActivity" />
+				<Param name="averageWeeklyRfactor" />
+				<Param name="averageWeeklyCallActivity" />
+				<Param name="calls" />
+			</Param>
+		</Params>
+	</Request>
+</Requests>

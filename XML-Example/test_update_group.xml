@@ -1,0 +1,9 @@
+<Requests>
+	<Request Object="group" Operation="update">
+		<Params>
+			<Param Name="groupname" Value="test123"/>
+			<Param Name="parentgroupname" Value="Demo-Group"/>
+			<Param Name="usergroup" Value="admin"/>
+		</Params>
+	</Request>
+</Requests>

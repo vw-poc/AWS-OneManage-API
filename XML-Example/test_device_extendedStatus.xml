@@ -1,0 +1,8 @@
+<Requests>
+	<Request Object="device" Operation="GetExtendedStatus">
+		<Params>
+			<!-- <Param Name="serial" Value="L1226007302005666"/> -->
+			<Param Name="hostname" Value="tstOVP_1"/>
+		</Params>
+	</Request>
+</Requests>

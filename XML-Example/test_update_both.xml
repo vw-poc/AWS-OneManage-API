@@ -1,0 +1,23 @@
+<Requests>
+	<Request Object="router" Operation="update">
+		<Params>
+			<Param Name="location" Value="loc_tstOPV_1"/>
+			<Param Name="management-ip" Value="10.22.50.1"/>
+			<Param Name="hostname" Value="tstOPV_1"/>
+			<Param Name="autoconf" Value="0"/>
+			<Param Name="serial" Value="L0887654467"/>
+			<Param Name="software" Value="ONEOS90-ADVIP_11N-V5.2R1C4"/>
+			<Param Name="group" Value="Test"/>
+			<Param Name="hw-type" Value="one5xx/15xx"/>
+			<Param Name="use-saved-config" Value="0"/>
+			<Param Name="customer" Value="Admin"/>
+			<Param Name="template" Value="DemoTemplate-One100-One300">
+				<Param Name="DebugIp" Value="10.2.4.1"/>
+				<Param Name="EnableFast1" Value="Yes"/>
+				<Param Name="EnableQoS" Value="Yes"/>
+				<Param Name="Bandwidth" Value="1000"/>
+			</Param>
+			<Param Name="hashkey" Value="OPV_VQM"/>
+		</Params>
+	</Request>
+</Requests>

@@ -1,0 +1,11 @@
+<Requests>
+	<Request Object="user" Operation="update">
+		<Params>
+			<Param Name="username" Value="test"/>
+			<Param Name="userpwd" Value="test@123"/>
+			<Param Name="userright" Value="admin"/>
+			<Param Name="usergroup" Value="user"/>
+			<Param Name="enablemqtt" Value="1"/>
+		</Params>
+	</Request>
+</Requests>

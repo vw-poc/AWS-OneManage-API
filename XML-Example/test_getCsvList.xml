@@ -1,0 +1,7 @@
+<Requests>
+        <Request Object="csv" Operation="getList">
+		<Params>
+                         <Param Name=""/>
+                </Params>		
+        </Request>
+</Requests>

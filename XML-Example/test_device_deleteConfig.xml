@@ -1,0 +1,7 @@
+<Requests>
+	<Request Object="config" Operation="delete">
+		<Params>
+			<Param Name="template-id" Value="1" />
+		</Params>
+	</Request>
+</Requests>

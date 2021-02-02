@@ -1,0 +1,16 @@
+<Requests>
+    <Request Object="router" Operation="getAlarms">
+        <Params>
+            <Param Name="hostname" Value="^host_name" Regexp="true"/>
+            <Param Name="customer" Value="Admin"/>
+            <Param Name="source-ip" Value="1.1.1.1"/>
+            <Param Name="alarm-name" Value="alarm_name" Regexp="true"/>
+            <Param Name="alarm-class" Value="alarm_class"/>
+            <Param Name="severity" Value="3" />
+            <Param Name="group" Value="Demo-Group" />
+            <Param Name="acknowledged" Value="true"/>
+            <Param Name="description" Value="[\s]*" Regexp="true"/>
+            <Param Name="type" Value="Equipment" Regexp="false"/>
+        </Params>
+    </Request>
+</Requests>

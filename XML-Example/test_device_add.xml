@@ -1,0 +1,26 @@
+<Requests>
+	<Request Object="device" Operation="add">
+		<Params>
+			<Param Name="location" Value="loc_tstOVP_1"/>
+			<Param Name="longitude" Value="78.6677428"/>
+			<Param Name="latitude" Value="22.3511148"/>
+			<Param Name="management-ip" Value="10.2.50.1"/>
+			<Param Name="hostname" Value="tstOVP_1"/>
+			<Param Name="serial" Value="L0887654467"/>
+			<Param Name="software" Value="sdf"/>
+			<Param Name="group" Value="Test"/>
+			<Param Name="hw-type" Value="ovp900"/>
+			<Param Name="customer" Value="Admin"/> <!-- optional -->
+			<Param Name="configuration" Value="test-0.1">
+				<![CDATA[<variables><variable name="vnf/xchange/ram">1024</variable>
+				<variable name="ovp/port/0/ip-address">192.168.3.54</variable></variables>]]>
+			</Param>
+			<Param Name="telnet-login" Value="admin"/> <!-- optional -->
+			<Param Name="telnet-password" Value="admin"/> <!-- optional -->
+			<Param Name="telnet-port" Value="23"/> <!-- optional -->
+			<Param Name="ssh-port" Value=""/> <!-- optional -->
+			<Param Name="CR_password" Value="oneaccess"/>
+			<Param Name="hashkey" Value="OPV"/>
+		</Params>
+	</Request>
+</Requests>

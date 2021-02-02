@@ -1,0 +1,9 @@
+<Requests>
+   <Request Object="router" Operation="Diagnostics">
+      <Params>
+         <Param Name="serial" Value="T00000000000000"/>
+         <Param Name="name" Value="DemoOne700"/>
+         <Param Name="debug" Value="Yes"/>
+      </Params>
+   </Request>
+</Requests>

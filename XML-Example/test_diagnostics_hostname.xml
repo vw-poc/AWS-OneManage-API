@@ -1,0 +1,9 @@
+<Requests>
+   <Request Object="router" Operation="Diagnostics">
+      <Params>
+         <Param Name="hostname" Value="One700"/>
+         <Param Name="name" Value="DemoOne700"/>
+         <Param Name="debug" Value="Yes"/>
+      </Params>
+   </Request>
+</Requests>

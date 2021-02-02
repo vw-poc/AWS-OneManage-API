@@ -1,0 +1,9 @@
+<Requests>
+     <Request Object="provisioned" Operation="getList">
+         <Params>
+   	     <Param Name="hw-class" Value="OVP"/>
+		 <Param Name="template-id" Value="1"/>
+	     <!-- <Param Name="customer" Value="admin"/> -->
+         </Params>
+     </Request>
+</Requests>

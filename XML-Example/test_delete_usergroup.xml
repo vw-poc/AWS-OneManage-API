@@ -1,0 +1,7 @@
+<Requests>
+  <Request Object="usergroup" Operation="delete">
+    <Params>
+      <Param Name="groupname" Value="test23"/>
+    </Params>
+  </Request>
+</Requests>

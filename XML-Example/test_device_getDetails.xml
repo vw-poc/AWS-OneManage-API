@@ -1,0 +1,7 @@
+<Requests>
+	<Request Object="device" Operation="getDetails">
+		<Params>
+			<Param Name="serial" Value="L0887654467"/>
+		</Params>
+	</Request>
+</Requests>

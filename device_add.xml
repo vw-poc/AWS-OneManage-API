@@ -1,0 +1,26 @@
+<Requests>
+	<Request Object="device" Operation="add">
+		<Params>
+			<Param Name="location" Value=""/>
+			<Param Name="longitude" Value=""/>
+			<Param Name="latitude" Value=""/>
+			<Param Name="management-ip" Value=""/>
+			<Param Name="hostname" Value=""/>
+			<Param Name="serial" Value=""/>
+			<Param Name="software" Value=""/>
+			<Param Name="group" Value=""/>
+			<Param Name="hw-type" Value=""/>
+		    <Param Name="customer" Value=""/>
+			<Param Name="configuration" Value="test">
+				<![CDATA[<variables><variable name='/ovpmgt/autoconf/polling-period'>50</variable>
+				<variable name="ovp/port/0/ip-address">192.168.3.88</variable></variables>]]>
+			</Param>
+<!--		<Param Name="telnet-login" Value=""/>  optional -->
+<!--		<Param Name="telnet-password" Value=""/>  optional -->
+<!--		<Param Name="telnet-port" Value=""/> optional -->
+<!--		<Param Name="ssh-port" Value=""/>  optional -->
+			<Param Name="CR_password" Value=""/>
+			<Param Name="hashkey" Value=""/>
+		</Params>
+	</Request>
+</Requests>

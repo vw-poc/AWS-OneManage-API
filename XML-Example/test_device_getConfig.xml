@@ -1,0 +1,8 @@
+<Requests>    
+	<Request Object="config" Operation="get">
+    	<Params>
+        	<!-- <Param Name="template-id" Value="1"/> -->
+        	<Param Name="name-version" Value="devApp-2.1.1"/>
+        </Params>
+    </Request>
+</Requests>

@@ -1,0 +1,9 @@
+<Requests>    
+   <Request Object="config" Operation="getList">
+      <Params>
+         <!-- <Param Name="hw-class" Value="OVP"/> -->
+         <Param Name="hw-type" Value="OVP800-M7"/>
+         <!-- <Param Name="sw-version" Value="1.6.1"/> -->
+      </Params>
+   </Request>
+</Requests>

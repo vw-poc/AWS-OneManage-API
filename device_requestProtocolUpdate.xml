@@ -1,0 +1,10 @@
+<Requests>
+	<Request Object="device" Operation="RequestProtocolUpdate">
+		<Params>
+			<Param Name="group" Value="test"/>
+			<Param Name="serial" Value="L1106004239094378"/>
+			<Param Name="force-configuration-update" Value="1"/>
+			<Param Name="force-software-update" Value="0"/>
+		</Params>
+	</Request>
+</Requests>

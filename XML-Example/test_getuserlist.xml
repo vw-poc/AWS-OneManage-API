@@ -1,0 +1,7 @@
+<Requests>
+        <Request Object="user" Operation="getList">
+		<Params>
+                         <Param Name=""/>
+                </Params>		
+        </Request>
+</Requests>

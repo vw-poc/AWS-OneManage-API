@@ -1,0 +1,7 @@
+<Requests>
+	<Request Object="unprovisioned" Operation="delete">
+		<Params>
+			<Param Name="serial" Value="T14500063870096997294"/>
+		</Params>
+	</Request>
+</Requests>

@@ -1,0 +1,7 @@
+<Requests>
+	<Request Object="unprovisioned" Operation="getList">
+		<Params>
+			<Param Name="customer" Value=""/>
+		</Params>
+	</Request>
+</Requests>
