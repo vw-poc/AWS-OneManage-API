@@ -13,7 +13,7 @@
         "hw-type": "OVP-X26",
         "group": "Demo-Group",
         "customer": "Admin",
-        "configuration": "MSC_3_DemoD3-8",
+        "configuration": "MSC_4_DemoD3-8",
         "location": "City of Brussels, Brussels-Capital, Belgium",
         "longitude": "4.351697",
         "latitude": "50.8465573",
@@ -44,14 +44,14 @@
             "/vnf/Forti/customization/FORTIGATE-VM10-HOSTNAME": "MyLinux1"
         },
         "D3client": {
-            "/vnf/D3client/start-delay": "180",
+            "/vnf/D3client/start-delay": "420",
             "/vnf/D3client/port/__index_0/mac-address": "AA:00:00:00:00:01",
-            "/vnf/D3client/customization/d3vm-docker": "",
+            "/vnf/D3client/customization/d3vm-docker": "sudo docker run -d --privileged --restart=unless-stopped --net=host -v /etc/kubernetes:/etc/kubernetes -v /var/run:/var/run rancher/rancher-agent:v2.5.5 --server https://mcm.frankfurt.cc.europe.d3vw-i.com --token xsqxkkqbc9zjvpx89hv6bjmgrtdsmxx6xn7thjntdbw2cxgx4d5q9l --worker\n",
             "/vnf/D3client/customization/d3vm-hostname": "D3client1",
             "/vnf/D3client/customization/d3vm-password": "1234QWer"
         },
         "Linux1": {
-            "/vnf/Linux1/start-delay": "120",
+            "/vnf/Linux1/start-delay": "420",
             "/vnf/Linux1/port/__index_0/mac-address": "AA:00:00:00:00:10",
             "/vnf/Linux1/customization/LINUX-VAR": ""
         }
@@ -70,7 +70,7 @@
         "hw-type": "OVP-X26",
         "group": "Demo-Group",
         "customer": "Admin",
-        "configuration": "MSC_3_DemoD3-8",
+        "configuration": "MSC_4_DemoD3-8",
         "location": "City of Brussels, Brussels-Capital, Belgium",
         "longitude": "4.351697",
         "latitude": "50.8465573",
@@ -101,14 +101,14 @@
             "/vnf/Forti/customization/FORTIGATE-VM10-HOSTNAME": "MyLinux1"
         },
         "D3client": {
-            "/vnf/D3client/start-delay": "180",
+            "/vnf/D3client/start-delay": "420",
             "/vnf/D3client/port/__index_0/mac-address": "AA:00:00:00:00:01",
-            "/vnf/D3client/customization/d3vm-docker": "",
+            "/vnf/D3client/customization/d3vm-docker": "sudo docker run -d --privileged --restart=unless-stopped --net=host -v /etc/kubernetes:/etc/kubernetes -v /var/run:/var/run rancher/rancher-agent:v2.5.5 --server https://mcm.frankfurt.cc.europe.d3vw-i.com --token xsqxkkqbc9zjvpx89hv6bjmgrtdsmxx6xn7thjntdbw2cxgx4d5q9l --worker\n",
             "/vnf/D3client/customization/d3vm-hostname": "D3client2",
             "/vnf/D3client/customization/d3vm-password": "1234QWer"
         },
         "Linux1": {
-            "/vnf/Linux1/start-delay": "120",
+            "/vnf/Linux1/start-delay": "420",
             "/vnf/Linux1/port/__index_0/mac-address": "AA:00:00:00:00:10",
             "/vnf/Linux1/customization/LINUX-VAR": ""
         }
@@ -127,7 +127,7 @@
         "hw-type": "OVP-X26",
         "group": "Demo-Group",
         "customer": "Admin",
-        "configuration": "MSC_3_DemoD3-8",
+        "configuration": "MSC_4_DemoD3-8",
         "location": "City of Brussels, Brussels-Capital, Belgium",
         "longitude": "4.351697",
         "latitude": "50.8465573",
@@ -148,7 +148,7 @@
             "/vnf/Forti/customization/FORTIGATE-GATEWAY": "10.255.255.1",
             "/vnf/Forti/customization/FORTIGATE-HOSTNAME": "Forti-Dealer3",
             "/vnf/Forti/customization/FORTIGATE-TIMEZONE": "5",
-            "/vnf/Forti/customization/FORTIGATE-POP-PUBLIC-IP": "18.159.11.7",
+            "/vnf/Forti/customization/FORTIGATE-POP-PUBLIC-IP": "18.159.11.7\u00c2\u00a0",
             "/vnf/Forti/customization/FORTIGATE-VPN-PSK-SECRET": "1234QWer2021!",
             "/vnf/Forti/customization/FORTIGATE-BGP-AS-NUMBER": "65501",
             "/vnf/Forti/customization/FORTIGATE-DEALER-PREFIX": "10.70.0.0 255.255.240.0",
@@ -158,14 +158,14 @@
             "/vnf/Forti/customization/FORTIGATE-VM10-HOSTNAME": "MyLinux1"
         },
         "D3client": {
-            "/vnf/D3client/start-delay": "180",
+            "/vnf/D3client/start-delay": "420",
             "/vnf/D3client/port/__index_0/mac-address": "AA:00:00:00:00:01",
-            "/vnf/D3client/customization/d3vm-docker": "",
+            "/vnf/D3client/customization/d3vm-docker": "sudo docker run -d --privileged --restart=unless-stopped --net=host -v /etc/kubernetes:/etc/kubernetes -v /var/run:/var/run rancher/rancher-agent:v2.5.5 --server https://mcm.frankfurt.cc.europe.d3vw-i.com --token xsqxkkqbc9zjvpx89hv6bjmgrtdsmxx6xn7thjntdbw2cxgx4d5q9l --worker\n",
             "/vnf/D3client/customization/d3vm-hostname": "D3client3",
             "/vnf/D3client/customization/d3vm-password": "1234QWer"
         },
         "Linux1": {
-            "/vnf/Linux1/start-delay": "120",
+            "/vnf/Linux1/start-delay": "420",
             "/vnf/Linux1/port/__index_0/mac-address": "AA:00:00:00:00:10",
             "/vnf/Linux1/customization/LINUX-VAR": ""
         }

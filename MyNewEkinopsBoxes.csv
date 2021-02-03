@@ -1,5 +1,5 @@
 serial,hostname,software,hw-class,hw-type,group,customer,configuration,location,longitude,latitude,hashkey,Ovpmgt*/ovpmgt/autoconf/polling-period,Ovpmgt*/ovpmgt/autoconf/manager/__index_0/url,Ovpmgt*/ovpmgt/port/__index_7/ip-address,Ovpmgt*/ovpmgt/port/__index_7/ cidr-mask,Ovpmgt*/ovpmgt/port/__index_8/ip-address,Ovpmgt*/ovpmgt/port/__index_8/ cidr-mask,Forti*/vnf/Forti/customization/FORTINET-LICENSE,Forti*/vnf/Forti/customization/FORTIGATE-PWD,Forti*/vnf/Forti/customization/FORTIGATE-IP-PORT1,Forti*/vnf/Forti/customization/FORTIGATE-PREF-PORT3,Forti*/vnf/Forti/customization/FORTIGATE-GATEWAY,Forti*/vnf/Forti/customization/FORTIGATE-HOSTNAME,Forti*/vnf/Forti/customization/FORTIGATE-TIMEZONE,Forti*/vnf/Forti/customization/FORTIGATE-POP-PUBLIC-IP,Forti*/vnf/Forti/customization/FORTIGATE-VPN-PSK-SECRET,Forti*/vnf/Forti/customization/FORTIGATE-BGP-AS-NUMBER,Forti*/vnf/Forti/customization/FORTIGATE-DEALER-PREFIX,Forti*/vnf/Forti/customization/FORTIGATE-LOCAL-DOMAIN-NAME,Forti*/vnf/Forti/customization/FORTIGATE-VM-MAC-PREFIX,Forti*/vnf/Forti/customization/FORTIGATE-VM1-HOSTNAME,Forti*/vnf/Forti/customization/FORTIGATE-VM10-HOSTNAME,D3client*/vnf/D3client/start-delay,D3client*/vnf/D3client/port/__index_0/mac-address,D3client*/vnf/D3client/customization/d3vm-docker,D3client*/vnf/D3client/customization/d3vm-hostname,D3client*/vnf/D3client/customization/d3vm-password,Linux1*/vnf/Linux1/start-delay,Linux1*/vnf/Linux1/port/__index_0/mac-address,Linux1*/vnf/Linux1/customization/LINUX-VAR
-009835107577184,MyDevice1,OneOS-OVP-X86_pi2dev-6.6.x1_3.2.10.1,OVP,OVP-X26,Demo-Group,Admin,MSC_3_DemoD3-8,"City of Brussels, Brussels-Capital, Belgium",4.351697,50.8465573,OPV,65,https://onemanage.vw-poc.eu/OneManage/bootstrap/server.php,10.255.254.2,24,10.255.253.2,24,"-----BEGIN FGT VM LICENSE-----
+009835107577184,MyDevice1,OneOS-OVP-X86_pi2dev-6.6.x1_3.2.10.1,OVP,OVP-X26,Demo-Group,Admin,MSC_4_DemoD3-8,"City of Brussels, Brussels-Capital, Belgium",4.351697,50.8465573,OPV,65,https://onemanage.vw-poc.eu/OneManage/bootstrap/server.php,10.255.254.2,24,10.255.253.2,24,"-----BEGIN FGT VM LICENSE-----
 QAAAAH/VVtpa8w/l30zSiIq1bJmwRi9WahhhlZaNlfzZe69cLcx4MZXnw9RE2HVv
 2ZsnvBgPdp3Xpe90RhV+4LuyT1LQGQAA2OLpBBhOxg39CDadB9OPHskdAe5o2OrM
 ebAWmey0gX8ZW+NbnmW/ucGAtQiSESj93Ti/b97A6m5ab7USS0NYNE5E3EdUiPf0
@@ -140,8 +140,9 @@ jH7wn1DicVPdVCnKlzEoceItq7GM2ayJgirM+qpwCqeEL6QcplxKJkVE1NFNSN/D
 v0TUz5TqBSgnnZtSkcB4/rDWYFrpLSSMA7eU03S78xVl77cLGK233q7S73vlr86e
 8bf6UzL1Oe/AbV8zLHSRe5raztd4d1hwlm7o++/NFvv9WYINF48usZKAB2DJxHb8
 hf/ends37ZQ=
------END FGT VM LICENSE-----",12QWer,10.255.255.2 255.255.255.252,10.50.1,10.255.255.1,Forti-Dealer1,5,18.159.11.7,1234QWer2021!,65501,10.50.0.0 255.255.240.0,myvw.local,AA:00:00:00:00,D3client1,MyLinux1,180,AA:00:00:00:00:01,,D3client1,1234QWer,120,AA:00:00:00:00:10,
-000618670574666,MyDevice2,OneOS-OVP-X86_pi2dev-6.6.x1_3.2.10.1,OVP,OVP-X26,Demo-Group,Admin,MSC_3_DemoD3-8,"City of Brussels, Brussels-Capital, Belgium",4.351697,50.8465573,OPV,65,https://onemanage.vw-poc.eu/OneManage/bootstrap/server.php,10.255.254.2,24,10.255.253.2,24,"-----BEGIN FGT VM LICENSE-----
+-----END FGT VM LICENSE-----",12QWer,10.255.255.2 255.255.255.252,10.50.1,10.255.255.1,Forti-Dealer1,5,18.159.11.7,1234QWer2021!,65501,10.50.0.0 255.255.240.0,myvw.local,AA:00:00:00:00,D3client1,MyLinux1,420,AA:00:00:00:00:01,"sudo docker run -d --privileged --restart=unless-stopped --net=host -v /etc/kubernetes:/etc/kubernetes -v /var/run:/var/run rancher/rancher-agent:v2.5.5 --server https://mcm.frankfurt.cc.europe.d3vw-i.com --token xsqxkkqbc9zjvpx89hv6bjmgrtdsmxx6xn7thjntdbw2cxgx4d5q9l --worker
+",D3client1,1234QWer,420,AA:00:00:00:00:10,
+000618670574666,MyDevice2,OneOS-OVP-X86_pi2dev-6.6.x1_3.2.10.1,OVP,OVP-X26,Demo-Group,Admin,MSC_4_DemoD3-8,"City of Brussels, Brussels-Capital, Belgium",4.351697,50.8465573,OPV,65,https://onemanage.vw-poc.eu/OneManage/bootstrap/server.php,10.255.254.2,24,10.255.253.2,24,"-----BEGIN FGT VM LICENSE-----
 QAAAAMOLX+409t3MJjilNMaXG1M/T/Ss9uiEV17LW/kKcF1zM5zkeZk3GmZzKjlJ
 7NKE4zFzoxioyRweu8FqfPyHRufQGQAAz4Y5kAw1hlTAkHOWcLcpD58Bbzy2xBW0
 hU1XmiS9JLxHULO21QwgBAieyb/jzNTx0JTYAPFM7L4IGMYGTe7CruSb/uVOfsX0
@@ -282,8 +283,9 @@ kqEVPFhoxCr9pONYiIDTExNztKo3gfk31no3AKk0UGKOyOfG7vzcLYe9A4j6sIx8
 8xMjstjWppCxAWh61oqn5DgFJL8ZMrhxcNNhi4vhOIxyEeRUtjLKmj1s3jDJnBKJ
 LsO4t89yQ0iJC1I84B+rZHLNwjDrME9c3MfyuoPjd5A1eBrrv4Two+Vpnhn17cyn
 Euze31DISDU=
------END FGT VM LICENSE-----",12QWer,10.255.255.2 255.255.255.252,10.50.1,10.255.255.1,Forti-Dealer2,5,18.159.11.7,1234QWer2021!,65501,10.60.0.0 255.255.240.0,myvw.local,AA:00:00:00:00,D3client2,MyLinux1,180,AA:00:00:00:00:01,,D3client2,1234QWer,120,AA:00:00:00:00:10,
-000618670574667,MyDevice3,OneOS-OVP-X86_pi2dev-6.6.x1_3.2.10.1,OVP,OVP-X26,Demo-Group,Admin,MSC_3_DemoD3-8,"City of Brussels, Brussels-Capital, Belgium",4.351697,50.8465573,OPV,65,https://onemanage.ipsip.ucpe.net/OneManage/bootstrap/server.php,10.255.254.2,24,10.255.253.2,24,"-----BEGIN FGT VM LICENSE-----
+-----END FGT VM LICENSE-----",12QWer,10.255.255.2 255.255.255.252,10.50.1,10.255.255.1,Forti-Dealer2,5,18.159.11.7,1234QWer2021!,65501,10.60.0.0 255.255.240.0,myvw.local,AA:00:00:00:00,D3client2,MyLinux1,420,AA:00:00:00:00:01,"sudo docker run -d --privileged --restart=unless-stopped --net=host -v /etc/kubernetes:/etc/kubernetes -v /var/run:/var/run rancher/rancher-agent:v2.5.5 --server https://mcm.frankfurt.cc.europe.d3vw-i.com --token xsqxkkqbc9zjvpx89hv6bjmgrtdsmxx6xn7thjntdbw2cxgx4d5q9l --worker
+",D3client2,1234QWer,420,AA:00:00:00:00:10,
+000618670574667,MyDevice3,OneOS-OVP-X86_pi2dev-6.6.x1_3.2.10.1,OVP,OVP-X26,Demo-Group,Admin,MSC_4_DemoD3-8,"City of Brussels, Brussels-Capital, Belgium",4.351697,50.8465573,OPV,65,https://onemanage.ipsip.ucpe.net/OneManage/bootstrap/server.php,10.255.254.2,24,10.255.253.2,24,"-----BEGIN FGT VM LICENSE-----
 QAAAAFhx6Eye0YHteX3uzZSmxF2FVpWLvh79vPp6AcKKYX3Kw+LZJavZDsp1T2UQ
 cUXt2yghjSnOoukJ2BGJ83HEUYXQGQAAEzO0CsuQ0hK+bEFQHeItCefXZVCEqx6k
 2askAdvuQefeGhu94YAcOXDqjS350Wdjb5R3/OpvGrOVAz1/riJ+T4Pkq7ngwB1W
@@ -424,4 +426,5 @@ ipesJkhI9aLzTlCeuGeYkiMNvh0j0NCk/O8cZ/Cy4xWETnxcdRl+zErs57iMOL/r
 qdMNi9eeC4SIQA3Pk5+mfXdgawQhk3F7CMFvalM//uoZINhfve5dXVv6rxTcXQkd
 /88180fRQYXlj7ZtevER9a3pw5CFbi82xolPUYfivZTQc+tVI4eSokSZVuZdd6gy
 Rxb3wWYNeX8=
------END FGT VM LICENSE-----",12QWer,10.255.255.2 255.255.255.252,10.50.1,10.255.255.1,Forti-Dealer3,5,18.159.11.7 ,1234QWer2021!,65501,10.70.0.0 255.255.240.0,myvw.local,AA:00:00:00:00,D3client3,MyLinux1,180,AA:00:00:00:00:01,,D3client3,1234QWer,120,AA:00:00:00:00:10,
+-----END FGT VM LICENSE-----",12QWer,10.255.255.2 255.255.255.252,10.50.1,10.255.255.1,Forti-Dealer3,5,18.159.11.7 ,1234QWer2021!,65501,10.70.0.0 255.255.240.0,myvw.local,AA:00:00:00:00,D3client3,MyLinux1,420,AA:00:00:00:00:01,"sudo docker run -d --privileged --restart=unless-stopped --net=host -v /etc/kubernetes:/etc/kubernetes -v /var/run:/var/run rancher/rancher-agent:v2.5.5 --server https://mcm.frankfurt.cc.europe.d3vw-i.com --token xsqxkkqbc9zjvpx89hv6bjmgrtdsmxx6xn7thjntdbw2cxgx4d5q9l --worker
+",D3client3,1234QWer,420,AA:00:00:00:00:10,
