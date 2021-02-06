@@ -8,7 +8,9 @@ import xml.etree.ElementTree as ET
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 from os import system, name
 from time import sleep
-
+from paramiko import SSHClient
+from paramiko import SSHException
+from paramiko import AutoAddPolicy
 
 # define our clear function
 def clear():
@@ -206,10 +208,11 @@ def om_api_request(filename, value,url1,username,pwd, level2=False, level2_tag='
 
 
 def menu():
+
     clear()
     url = 'https://OneManage.vw-poc.eu/OneManage/ExternalInterface/opi_server.php'
     username = 'admin'
-    pwd = 'f48d51e3b917a4fff0fdd6ad6ba9385d'
+    pwd = '647f8beeb4f468b9145a7fd4c3ff8516'
     file = "MyNewEkinopsBoxes.csv"
     json_file="MyNewEkinopsBoxes.json"
 
@@ -227,6 +230,7 @@ def menu():
                       Q: Logout.
 
                       Please enter your choice: """)
+
 
     if choice == "A" or choice == "a":
         print('A choice')
@@ -305,6 +309,55 @@ def menu():
             print("Press Ctrl-C to go back to menu ")
             while True:
                 sleep(1)
+        except KeyboardInterrupt:
+            pass
+        menu()
+    if choice == "F" or choice == "F":
+        print('F choice')
+        print('Restore Factory Default')
+        # Connect
+        client = SSHClient()
+        client.set_missing_host_key_policy(AutoAddPolicy())
+        try:
+            client.connect('92.103.89.94', port=2222, username='admin', password='admin2@HPE')
+
+            # Run a command (execute PHP interpreter)
+            client.exec_command(
+                           'restore factory\n'
+                           'y\n'
+                          '\n')
+            client.close()
+        except SSHException as sshException:
+            print("Unable to establish SSH connection: %s" % sshException)
+        except Exception as ist:
+            print(ist)
+
+        print('Delete boxes from OneManage Server')
+        input_file = csv.DictReader(open(file))
+        for row in input_file:
+            print (row['serial'])
+            serial = row['serial']
+            filename = 'device_delete.xml'
+            dict_value = {'serial': serial}
+            jresp = om_api_request(filename, dict_value, url, username, pwd)
+
+        print('Add Ekinops boxes from csv file to OneManage Server')
+        filename = 'device_add.xml'
+        with open(json_file) as f:
+            data = json.load(f)
+        for keys in data:
+            my_dict={}
+            my_update_dict={}
+            response = get_config_dict(data, keys, my_dict, my_update_dict)
+            dict_value=response[0]
+            update_dict=response[1]
+            jresp=om_api_request(filename, dict_value, url, username, pwd, True, 'configuration', update_dict)
+        print('Force software update of an Ekinops box from OneManage Server - Continuous')
+        try:
+            while True:
+                clear()
+                config_update(file, url, username, pwd)
+                sleep(10)
         except KeyboardInterrupt:
             pass
         menu()

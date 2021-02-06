@@ -1,8 +1,7 @@
 <Requests>
 	<Request Object="device" Operation="delete">
 		<Params>
-			<!-- <Param Name="serial" Value="L0887654468"/> -->
-			<Param Name="hostname" Value="tstOVP_2"/>
+			<Param Name="serial" Value="L0887654468"/>
 		</Params>
 	</Request>
 </Requests>
