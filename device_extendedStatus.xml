@@ -1,7 +1,0 @@
-<Requests>
-	<Request Object="device" Operation="GetExtendedStatus">
-		<Params>
-			<Param Name="serial" Value="L1226007302005666"/>
-		</Params>
-	</Request>
-</Requests>
